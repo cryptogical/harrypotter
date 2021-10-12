@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel3" alignment="0" pref="836" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel3" alignment="0" pref="374" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="North"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+            <Property name="columns" type="int" value="1"/>
+            <Property name="rows" type="int" value="1"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="R&#xe8;gles du Jeu"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel4">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="Center"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+            <Property name="columns" type="int" value="1"/>
+            <Property name="rows" type="int" value="1"/>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="Edition">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="wrapStyleWord" type="boolean" value="true"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="Edition.setText(&quot;HarryPotterInfo est un jeu entre 2 joueurs\n&quot;+&#xa;&quot;Au depart chaque joueur choisit le personnage-joueur qu&apos;il va incarner &quot;&#xa;+ &quot;parmi 6 personnages pr&#xe9;d&#xe9;finis de l&apos;univers Harry Potter.\n&quot;+&#xa;&quot;Chaque personnage joueur poss&#xe8;de au d&#xe9;part une exp&#xe9;rience de 200 &quot;&#xa;+ &quot;et un certain nombre d&apos;armes. Il existe deux sortes d&apos;armes : &quot;&#xa;+ &quot;les sorts et les potions. Chaque arme poss&#xe8;de une certaine force.\n&quot;+&#xa;&quot;Le but du jeu est d&apos;acqu&#xe9;rir une exp&#xe9;rience de 500, gr&#xe2;ce &#xe0; l&apos;acquisition d&apos;armes.\n&quot;+&#xa;&quot;Les joueurs jouent &#xe0; tour de r&#xf4;le.\n&quot;+&#xa;&quot;A chaque tour un joueur commence par se d&#xe9;placer dans un lieu qu&apos;il choisit.\n &quot;+&#xa;&quot;Chaque lieu permet d&apos;effectuer une action sp&#xe9;cifique :\n&quot;+&#xa;&quot;   - une ar&#xe8;ne permet d&apos;effectuer un combat contre un combattant\n&quot;+&#xa;&quot;   - une salle de cours permet de faire l&apos;apprentissage d&apos;un sort par un ma&#xee;tre.\n&quot;+&#xa;&quot;Chaque ar&#xe8;ne poss&#xe8;de son propre combattant, et chaque salle de cours a un ma&#xee;tre d&#xe9;sign&#xe9;.\n&quot;+&#xa;&quot;Un combat se r&#xe9;sume &#xe0;  un &#xe9;change d&apos;armes (sorts ou potions, au choix du joueur) entre le joueur et le combattant.\n&quot;+&#xa;&quot;Le m&#xe9;canisme diff&#xe8;re selon la nature des armes &#xe9;chang&#xe9;es.&quot;+&#xa;&quot;Lors d&apos;un combat &#xe0; base de sorts, le joueur choisit un sort parmi ceux qu&apos;il poss&#xe8;de, et le combattant fait de m&#xea;me de mani&#xe8;re al&#xe9;atoire.\n&quot;+&#xa;&quot; Celui qui propose le sort de plus grande force remporte le combat.\n&quot;+&#xa;&quot;Lors d&apos;un combat &#xe0; base de potions, le joueur choisit un certain nombre de potions parmi celles qu&apos;il poss&#xe8;de, &quot;+&#xa;&quot;et le combattant choisit quant &#xe0; lui une seule potion de mani&#xe8;re al&#xe9;atoire.\n&quot;+&#xa;&quot; Celui qui a la force (ou la somme des forces) de plus grande valeur remporte le combat.\n&quot;+&#xa;&quot;Si le joueur gagne le combat, il acquiert l&apos;arme (sort ou potion) propos&#xe9;e par son adversaire, et augmente son exp&#xe9;rience de la force de l&apos;arme gagn&#xe9;e.\n&quot;+&#xa;&quot;S&apos;il perd, il diminue son exp&#xe9;rience de la force de l&apos;arme (ou des armes) qu&apos;il a utilis&#xe9;e(s) dans le combat,\n&quot;+&#xa;&quot;mais ne perd pas son (ou ses) arme(s).\n&quot;+&#xa;&quot;Dans une salle de cours, le joueur choisit le sort qu&apos;il veut apprendre parmi ceux que poss&#xe8;de le ma&#xee;tre de la salle.\n&quot;+&#xa;&quot;L&apos;apprentissage aboutit si l&apos;exp&#xe9;rience du joueur augment&#xe9;e d&apos;un nombre entier al&#xe9;atoire\n&quot;+&#xa;&quot; est sup&#xe9;rieure ou &#xe9;gale &#xe0; l&apos;exp&#xe9;rience du ma&#xee;tre.\n&quot;+&#xa;&quot;Si le joueur apprend le sort, il le rajoute &#xe0; sa liste de sorts, et augmente son exp&#xe9;rience de la force du sort appris.\n&quot;+&#xa;&quot;Si le joueur ne r&#xe9;ussit pas &#xe0; apprendre le sort voulu, il ne perd rien.\n&quot;+&#xa;&quot;Celui qui gagne est celui qui a atteint le premier au moins 500 en exp&#xe9;rience\n&quot;+&#xa;&quot; ou bien qui n&apos;a plus d&apos;adversaire valide (plus de sort ni de potion ni d&apos;exp&#xe9;rience)\n&quot;+&#xa;&quot;Bonne chance&quot;);"/>
+                  </AuxValues>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel5">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="South"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+            <Property name="columns" type="int" value="3"/>
+            <Property name="rows" type="int" value="1"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+            </Component>
+            <Component class="javax.swing.JButton" name="Fermer">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fermer"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FermerActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
